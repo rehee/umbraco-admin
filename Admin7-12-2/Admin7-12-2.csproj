@@ -1608,8 +1608,6 @@
     <Content Include="Admin\Install\Views\Index.cshtml" />
     <Content Include="Admin\Install\Views\Web.config" />
     <Content Include="Admin\Js\web.config" />
-    <Content Include="Admin\lib\angular-dynamic-locale\tmhDynamicLocale.min.js.map" />
-    <Content Include="Admin\lib\angular-local-storage\angular-local-storage.min.js.map" />
     <Content Include="Admin\lib\bootstrap-tabdrop\README.md" />
     <Content Include="Admin\lib\bootstrap\less\accordion.less" />
     <Content Include="Admin\lib\bootstrap\less\alerts.less" />
@@ -1657,7 +1655,6 @@
     <Content Include="Admin\lib\font-awesome\fonts\fontawesome-webfont.ttf" />
     <Content Include="Admin\lib\font-awesome\fonts\fontawesome-webfont.woff" />
     <Content Include="Admin\lib\font-awesome\fonts\FontAwesome.otf" />
-    <Content Include="Admin\lib\jquery\jquery.min.map" />
     <Content Include="Admin\lib\tinymce\skins\umbraco\fonts\readme.md" />
     <Content Include="Admin\lib\tinymce\skins\umbraco\fonts\tinymce-small.eot" />
     <Content Include="Admin\lib\tinymce\skins\umbraco\fonts\tinymce-small.ttf" />
@@ -1665,7 +1662,6 @@
     <Content Include="Admin\lib\tinymce\skins\umbraco\fonts\tinymce.eot" />
     <Content Include="Admin\lib\tinymce\skins\umbraco\fonts\tinymce.ttf" />
     <Content Include="Admin\lib\tinymce\skins\umbraco\fonts\tinymce.woff" />
-    <Content Include="Admin\lib\underscore\underscore-min.map" />
     <Content Include="Admin\Masterpages\default.Master" />
     <Content Include="Admin\Masterpages\umbracoDialog.Master" />
     <Content Include="Admin\Masterpages\umbracoPage.Master" />

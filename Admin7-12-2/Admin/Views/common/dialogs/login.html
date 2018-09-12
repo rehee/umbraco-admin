@@ -2,11 +2,12 @@
 
     <div id="login" class="umb-modalcolumn umb-dialog" ng-class="{'show-validation': loginForm.$invalid}" ng-cloak konami-code="activateKonamiMode()">
 
-        <div class="login-overlay__background-image" ng-if="backgroundImage" ng-style="{'background-image':'url(' + backgroundImage + ')'}"></div>
+        <!-- ng-if="backgroundImage" ng-style="{'background-image':'url(' + backgroundImage + ')'}" -->
+        <div class="login-overlay__background-image" ></div>
 
-        <div class="login-overlay__logo">
+        <!-- <div class="login-overlay__logo">
             <img ng-src="assets/img/application/logo.png" ng-srcset="assets/img/application/logo@2x.png 2x, assets/img/application/logo@3x.png 3x">
-        </div>
+        </div> -->
 
         <div ng-show="invitedUser != null" class="umb-login-container">
 
@@ -165,9 +166,11 @@
                                         state="loginStates.submitButton"
                                         type="submit">
                             </umb-button>
-                            <div ng-show="allowPasswordReset">
+                            
+                            <!-- <div ng-show="allowPasswordReset">
                                 <a class="muted" style="text-decoration: underline;" href="#" prevent-default ng-click="showRequestPasswordReset()"><localize key="login_forgottenPassword">Forgotten password?</localize></a>
-                            </div>
+                            </div> -->
+
                         </div>
 
                     </form>

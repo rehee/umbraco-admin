@@ -1,4 +1,5 @@
 ﻿using Examine;
+using Examine.SearchCriteria;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,9 +12,15 @@ namespace System
   {
     public static void a()
     {
+     
       var criteria = ExamineManager.Instance.DefaultSearchProvider.CreateSearchCriteria(IndexTypes.Content);
-      var query = criteria.Range("Id", 0, 9999);
-      var test = ExamineManager.Instance.DefaultSearchProvider.Search(query.Compile()).ToList();
+      //var query = criteria.Field("nodeTypeAlias", "home");
+      //var query = criteria.Field("title", "home");
+      //var query = criteria.Id(1602);
+      var query = criteria.ParentId(-1);
+      //criteria.Field("id")
+      //  IExamineValue
+      var test = ExamineManager.Instance.Search("ParentId == -1",true).ToList();
       var a = 1;
     }
   }
